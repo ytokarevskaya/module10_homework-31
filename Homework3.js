@@ -1,11 +1,7 @@
 function reverseString (str) {
-    var splitString = str.split("");
-    
-    var reverseArray = splitString.reverse ();
-    
-    var joinArray = reverseArray.join ("");
-    
-    return joinArray
+    return str.split("").reverse().join("");
   }
   
   console.log(reverseString("Hello"))
+
+// Задача выполнена верно, но то же самое можно записать чуть короче. Выше исправила
